@@ -1,0 +1,45 @@
+编写一个函数来查找字符串数组中的最长公共前缀。
+
+如果不存在公共前缀，返回空字符串 ""。
+
+ 
+
+示例 1：
+
+输入：strs = ["flower","flow","flight"]
+输出："fl"
+示例 2：
+
+输入：strs = ["dog","racecar","car"]
+输出：""
+解释：输入不存在公共前缀。
+ 
+
+提示：
+
+1 <= strs.length <= 200
+0 <= strs[i].length <= 200
+strs[i] 仅由小写英文字母组成
+
+
+
+方法一 zip合并
+解题思路：
+使用 zip 根据字符串下标合并成数组，
+判断合并后数组里元素是否都相同
+复杂度分析：
+时间复杂度 O(N)O(N) ，NN 表示数组中最短字符串长度
+空间复杂度 O(1)O(1) ，使用的变量为自然数个
+python
+
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        ans = ''
+        for i in zip(*strs):
+            if len(set(i)) == 1:
+                ans += i[0]
+            else:
+                break
+        return ans
+这个例子是 菜鸟编程 里关于 zip函数 介绍 Python zip() 函数
+
