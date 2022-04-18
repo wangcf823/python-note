@@ -1,0 +1,17 @@
+21. 合并两个有序链表
+将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
+
+什么是递归呢？函数在运行时调用自己，这个函数就叫递归函数，调用的过程叫做递归。
+比如定义函数 f(x)=x+f(x-1)f(x)=x+f(x−1)：
+
+class Solution:
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        if not l1: return l2  # 终止条件，直到两个链表都空
+        if not l2: return l1
+        if l1.val <= l2.val:  # 递归调用
+            l1.next = self.mergeTwoLists(l1.next,l2)
+            return l1
+        else:
+            l2.next = self.mergeTwoLists(l1,l2.next)
+            return l2
+
