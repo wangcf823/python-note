@@ -1,0 +1,92 @@
+前缀和
+组合算法（字符串，数组，链表）
+哈希表
+滑动窗口/双指针
+自定义排序(sort(lambda)/cmp_to_key)
+单调栈
+差分
+DFS/BFS
+
+
+树(进阶)
+图(进阶)
+动态规划(进阶)
+贪心算法(进阶)
+二分法(进阶)
+回溯(进阶)
+
+种类	数据结构与算法	题目（数据结构与算法中标红的为重点没标的知识点按自己能力拓展学习）	日期
+算法	滑动窗口/双指针	"3. 无重复字符的最长子串 https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
+845. 数组中的最长山脉 https://leetcode-cn.com/problems/longest-mountain-in-array/
+718. 最长重复子数组 https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/
+209. 长度最小的子数组 https://leetcode-cn.com/problems/minimum-size-subarray-sum/
+611. 有效三角形的个数 https://leetcode-cn.com/problems/valid-triangle-number/"	
+			
+	自定义排序(sort(lambda)/cmp_to_key)	"offer45 把数组排成最小的数 https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/
+406. 根据身高重建队列 https://leetcode-cn.com/problems/queue-reconstruction-by-height/"	
+	单调栈	每日温度：https://leetcode-cn.com/problems/daily-temperatures/	
+	字典树（前缀树）	820. 单词的压缩编码 https://leetcode-cn.com/problems/short-encoding-of-words/	
+	差分	差分--1094. 拼车  https://leetcode-cn.com/problems/car-pooling/	
+	前缀和	560. 和为K的子数组  https://leetcode-cn.com/problems/subarray-sum-equals-k/	
+	DFS/BFS	"200. 岛屿数量 https://leetcode-cn.com/problems/number-of-islands/         dfs：105，112，98，494，547，1254
+994. 腐烂的橘子 https://leetcode-cn.com/problems/rotting-oranges/         bfs：1092，1129，102，101，752"	
+	回溯	79. 单词搜索 https://leetcode-cn.com/problems/word-search/	
+数据结构	栈	150. 逆波兰表达式求值 https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/   946，116，117，895	
+	哈希表	1. 两数之和 https://leetcode-cn.com/problems/two-sum/    61，729，25，554	
+	字符串	3，49，30	
+	队列	641,406,899	
+	链表	141. 环形链表 https://leetcode-cn.com/problems/linked-list-cycle/	
+	堆	/	
+	树	"144. 二叉树的前序遍历 https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+94. 二叉树的中序遍历 https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+145. 二叉树的后序遍历 https://leetcode-cn.com/problems/binary-tree-postorder-traversal/
+113. 路径总和 II （树的dfs/bfs）https://leetcode-cn.com/problems/path-sum-ii/"	
+	图	743. 网络延迟时间 https://leetcode-cn.com/problems/network-delay-time/	
+扩展	动态规划	"青蛙跳台阶问题 https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
+股票的最大利润 https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/"	
+	贪心算法	/	
+	二分法	"704. 二分查找 https://leetcode-cn.com/problems/binary-search/
+33. 搜索旋转排序数组 https://leetcode-cn.com/problems/search-in-rotated-sorted-array/"	
+			
+	输入输出练习	（牛客网）华为在线笔试练习链接：https://www.nowcoder.com/ta/huawei
+  
+算法知识点	"数学知识：素数、公约数、矩阵等
+
+重要数据结构知识：字符串（概率很大） 、数组（概率很大） 、链表、队列、堆、栈、map/set， 以及它们的排序算法。树、图等可以自行准备，考的概率不大。
+
+字符串最后一个单词的长度、二叉树的遍历、最大括号深度、春游名单、勾股数元组（牛客网上题目）
+华为在线笔试练习链接：https://www.nowcoder.com/ta/huawei
+"										
+	
+  学习计划建议									
+学习计划建议	有基础人员（编程）	"选择自己擅长的语言在leecode或者牛客网上进行有针对性的刷题
+（题目可以参考《刷题题目推荐》或自己根据《机考辅导》中的算法点刷题）--建议花1个月左右的时间具体根据自己能力选择报考"							
+	无基础人员	"1.前期可花一个月到两个月的时间学习一门语言，建议在leecode或者牛客网结合一下简单的题同步学习
+
+2.有一定的语言基础后可按有基础人员的方式进行刷题学习
+
+ps：
+语言基础语法推荐学习网站：https://www.runoob.com/python/python-functions.html（菜鸟教程）---毫无基础的人员可以选择从python语言下手"							
+																		
+									
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
