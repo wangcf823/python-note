@@ -1,0 +1,47 @@
+from collections import deque
+from typing import List, Optional
+
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+    def build_tree(s: str):
+        """
+        反序列化字符串生成一棵二叉树
+        :param s: 序列化字符串（直接从力扣题目里面复制就行）
+        :return: 树的根节点
+        """
+        if not s:
+            return None
+        s = s.split(',')
+
+        size = len(s)
+        que = deque()
+        root = TreeNode(int(s[0]))
+        que.append(root)
+
+        i = 1
+        while i < size:
+            node = que.popleft()
+            left = TreeNode(int(s[i])) if i < size and s[i] != 'null' else None
+            i += 1
+            right = TreeNode(int(s[i])) if i < size and s[i] != 'null' else None
+            i += 1
+            node.left, node.right = left, right
+            if node.left:
+                que.append(node.left)
+            if node.right:
+                que.append(node.right)
+        return root
+
+
+# 举例说明
+# s = '1,2,2,3,3,null,null,4,4'
+# s = '1,2,null,3,null,4,null,5'
+# s = '1,2,2,3,null,null,3,4,null,null,4'
+# s = '2,1,3'
+# obj = TreeNode.build_tree(s)
+# # print(obj)
