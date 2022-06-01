@@ -1,0 +1,16 @@
+python中的一个内置方法__init__方法；在__init__方法的第一个参数永远是self，
+表示创建的类实例的本身，有了__init__方法在创建实例的时候就不能传入空的参数，必须传入和__init__方法匹配的参数。
+1 class Student(object):
+2     def __init__(self,name,score):
+3         self.name =name
+4         self.score = score
+
+1 >>>student = Student("Hugh", 99)
+2 >>>student.name
+3 "Hugh"
+4 >>>student.score
+5 99
+
+
+
+
