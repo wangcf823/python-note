@@ -1,0 +1,18 @@
+from typing import List
+def helper(pre: List[str], mid:List[str]) -> List[str]:
+    if len(pre)<2:
+        return pre
+    root = pre[0]
+    idx = mid.index(root)
+    return helper(pre[1:idx+1],mid[:idx]) + helper(pre[idx+1:],mid[idx+1:]) + [root]
+
+def func():
+    pre = list(input())
+    mid = list(input())
+    print("".join(helper(pre,mid)))
+    
+    
+
+    
+if __name__ == "__main__":
+    func()
